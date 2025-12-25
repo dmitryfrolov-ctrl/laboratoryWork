@@ -19,8 +19,8 @@ class UserAccount:
         return True
 
 
-if __name__ == "__main__":
-    user = UserAccount("dima", "dima@example.com", "123")
 
-    user.set_password(input("new_password"),input("current_password"))
+user = UserAccount("dima", "dima@example.com", "123")
+
+user.set_password(input("new_password"),input("current_password"))
 
